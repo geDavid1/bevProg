@@ -9,7 +9,7 @@ def tukor(n):
         n //= 10
 
     
-    print(uj)
+
     if regi == uj:
         return True
     else:
