@@ -5,7 +5,6 @@ def main():
         m = m + str(x % 2)
         x //=2
 
-
     print(m[::-1])
  
 
