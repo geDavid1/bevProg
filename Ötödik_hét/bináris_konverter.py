@@ -8,11 +8,7 @@ def main():
 
 
     print(m[::-1])
-    print("\n",bin(111))
-
-
-
-
+ 
 
 
 if __name__ == "__main__":
