@@ -4,7 +4,6 @@ def main():
     while x != 0:
         m = m + str(x % 2)
         x //=2
-        print(x)
 
 
     print(m[::-1])
