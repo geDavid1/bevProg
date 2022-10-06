@@ -1,5 +1,5 @@
 def szur(x,y):
-    w = input("szöveg : ")
+    w = input("Változtandó szöveg : ")
     z = w.find(x)
 
     return w[:z] + y + " " + w[z:]
@@ -8,7 +8,10 @@ def szur(x,y):
    
 
 def main():
-    print(szur("bögre","piros"))
+    x = input("Szöveg 1. :")
+    y = input("Szöveg 2. :")
+    print(szur(x,y))
+    
 
 
 
